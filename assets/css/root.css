@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Karla:wght@300;400;500;600;700;800&display=swap');
+
+/* font-family: 'Karla', sans-serif; */
+/* font-family: 'Inter', sans-serif; */
+
+:root {
+    --ff-primary: 'Karla', sans-serif;
+    --ff-secondary: 'Inter', sans-serif;
+
+    --fs-4xl: 30px;
+    --fs-xxxl: 29px;
+    --fs-3xxl: 27px;
+    --fs-2xl: 26px;
+    --fs-xxl: 25px;
+    --fs-xl: 20px;
+    --fs-llg: 20px;
+    --fs-lg: 18px;
+    --fs-mmd: 18px;
+    --fs-3md: 17px;
+    --fs-2md: 16px;
+    --fs-md: 16px;
+    --fs-sm: 16px;
+    --fs-xs: 15px;
+    --fs--xxs: 14px;
+    --fs-extraSmall: 13px;
+
+
+    --extraLarge: 900;
+    --extraBold: 800;
+    --bold: 700;
+    --semiBold: 600;
+    --medium: 500;
+    --regular: 400;
+    --light: 300;
+
+    --primary-color: #111B24;
+    --secondary-color: #00EAC7;
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+    --light-color: #BCCBD6;
+    --danger-color: #1B2B38;
+    --dark-color: #00CCAB;
+    --btn-color: #0e4948;
+    --btn-color-hover: #162d30;
+    --footer-btn: #0F171F;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+.ff-xxs {
+    font-size: var(--fs--xxs) !important;
+}
+
+.footer_btn_bg {
+    background-color: var(--footer-btn);
+}
+
+.footer_btn_1 {
+    background-color: var(--footer-btn);
+}
+
+.bg_color {
+    background-color: var(--primary-color);
+}
+
+.navlinks {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-sm);
+    font-weight: var(--light);
+    color: var(--white-color);
+}
+
+.btn-outline,
+.btn-outline_1 {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-xs);
+    font-weight: var(--medium);
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    letter-spacing: 0.64px;
+    transition: 500ms;
+}
+
+.btn-outline:hover,
+.btn-outline_1:hover {
+    box-shadow: 0 0 12px rgba(0, 234, 199, .6);
+}
+
+.btn-inline {
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-xs);
+    font-weight: var(--medium);
+    color: var(--dark-color);
+    background-color: var(--btn-color);
+    transition: 1s linear;
+}
+
+.btn-center {
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-xs);
+    font-weight: var(--medium);
+    background-color: var(--btn-color);
+    color: var(--dark-color);
+    letter-spacing: 0.64px;
+    transition: 1s linear;
+}
+
+.btn-inline:hover,
+.btn-center:hover {
+    box-shadow: 0 0 12px rgba(14, 73, 72, .2);
+    background-color: var(--btn-color-hover);
+}
+
+.card-btn {
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-xs);
+    font-weight: var(--medium);
+    color: var(--dark-color);
+}
+
+.verSlider {
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-xs);
+    font-weight: var(--medium);
+    color: var(--white-color);
+    letter-spacing: 0.96px;
+}
+
+.mainHeading {
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-xxxl);
+    font-weight: var(--bold);
+    color: var(--white-color);
+}
+
+.mainHeading_section {
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-xxxl);
+    font-weight: var(--light);
+    color: var(--white-color);
+}
+
+.paragraph {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-md);
+    font-weight: var(--light);
+    color: var(--light-color);
+    letter-spacing: 0.64px;
+}
+
+.sliderHeading,
+.footerCard {
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-extraSmall);
+    font-weight: var(--light);
+    color: var(--white-color);
+    letter-spacing: 2.9808px;
+}
+
+.cardHeading {
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-lg);
+    font-weight: var(--bold);
+    color: var(--white-color);
+    letter-spacing: 0.72px;
+}
+
+.cardSubHeading {
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-xl);
+    font-weight: var(--light);
+    color: var(--white-color);
+    letter-spacing: 0.72px;
+}
+
+.cardPara,
+input[placeholder="Your email"] {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-sm);
+    font-weight: var(--light);
+    color: var(--light-color);
+    letter-spacing: 0.64px;
+}
+
+.cardNumber {
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-llg);
+    font-weight: var(--bold);
+    color: var(--white-color);
+    letter-spacing: 0.72px;
+}
+
+.footerLinks {
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-extraSmall);
+    font-weight: var(--light);
+    color: var(--light-color);
+    letter-spacing: 0.5632px;
+}
+
+.footerLinks:hover {
+    color: var(--dark-color);
+}
+
+.footerLinksHeading {
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-xs);
+    font-weight: var(--bold);
+    color: var(--white-color);
+    letter-spacing: 0.96px;
+}
+
+.verticalSliderHeading {
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-2xl);
+    font-weight: var(--bold);
+    color: var(--white-color);
+    letter-spacing: 0.85px;
+}
+
+.verticalSliderSubHeading {
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-3xxl);
+    font-weight: var(--light);
+    color: var(--white-color);
+    letter-spacing: 0.85px;
+}
+
+
+
+.zerocardHeading {
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-3md);
+    font-weight: var(--bold);
+    color: var(--white-color);
+    letter-spacing: 0.7px;
+}
+
+.zerocardSubHeading {
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-2md);
+    font-weight: var(--light);
+    color: var(--white-color);
+    letter-spacing: 0.7px;
+}
+
+.zeroBtn {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-sm);
+    font-weight: var(--medium);
+    color: var(--dark-color);
+    letter-spacing: 0.64px;
+}
+
+@media (min-width:768px) {
+    :root {
+        --fs-4xl: 38px;
+        --fs-xxxl: 36px;
+        --fs-3xxl: 29px;
+        --fs-2xl: 28px;
+        --fs-xxl: 26px;
+        --fs-xl: 22px;
+        --fs-llg: 21px;
+        --fs-lg: 20px;
+        --fs-mmd: 18px;
+        --fs-3md: 18px;
+        --fs-2md: 17px;
+        --fs-md: 16px;
+        --fs-sm: 16px;
+        --fs-xs: 15px;
+        --fs-extraSmall: 13px;
+    }
+}
+
+@media (min-width:992px) {
+    :root {
+        --fs-4xl: 40px;
+        --fs-xxxl: 38px;
+        --fs-3xxl: 31px;
+        --fs-2xl: 30px;
+        --fs-xxl: 28px;
+        --fs-xl: 22px;
+        --fs-llg: 21px;
+        --fs-lg: 20px;
+        --fs-mmd: 19px;
+        --fs-3md: 19px;
+        --fs-2md: 18px;
+        --fs-md: 17px;
+        --fs-sm: 16px;
+        --fs-xs: 15px;
+        --fs-extraSmall: 13px;
+    }
+}
+
+@media (min-width:1200px) {
+    :root {
+        --fs-4xl: 42px;
+        --fs-xxxl: 40px;
+        --fs-3xxl: 34px;
+        --fs-2xl: 32px;
+        --fs-xxl: 30px;
+        --fs-xl: 24px;
+        --fs-llg: 23px;
+        --fs-lg: 22px;
+        --fs-mmd: 21px;
+        --fs-3md: 20px;
+        --fs-2md: 19px;
+        --fs-md: 18px;
+        --fs-sm: 16px;
+        --fs-xs: 15px;
+        --fs-extraSmall: 13px;
+    }
+}
