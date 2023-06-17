@@ -79,14 +79,18 @@ $('.myslider_2').slick({
 
 
 $(".vertical-slider-2").slick({
-    slidesToShow: 5,
+    slidesToShow: 3,
     infinite: true,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 1000,
     dots: false,
+    centerPadding: "122px",
     arrows: false,
     vertical: true,
+    verticalSwiping: true,
+    centerMode: true,
+    focusOnSelect: true,
 });
 
 $('.myslider_3').slick({
