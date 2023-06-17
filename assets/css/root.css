@@ -40,8 +40,8 @@
     --light-color: #BCCBD6;
     --danger-color: #1B2B38;
     --dark-color: #00CCAB;
-    --btn-color: #0e4948;
-    --btn-color-hover: #162d30;
+    --btn-color: #265c5b;
+    --btn-color-hover: #627375;
     --footer-btn: #0F171F;
 }
 
@@ -104,7 +104,7 @@ body {
     background-color: var(--btn-color);
     color: var(--dark-color);
     letter-spacing: 0.64px;
-    transition: 1s linear;
+    transition: 0.5s linear;
 }
 
 .btn-inline:hover,
@@ -270,6 +270,7 @@ input[placeholder="Your email"] {
         --fs-md: 16px;
         --fs-sm: 16px;
         --fs-xs: 15px;
+        --fs-xxs: 14px;
         --fs-extraSmall: 13px;
     }
 }
@@ -290,6 +291,7 @@ input[placeholder="Your email"] {
         --fs-md: 17px;
         --fs-sm: 16px;
         --fs-xs: 15px;
+        --fs-xxs: 14px;
         --fs-extraSmall: 13px;
     }
 }
@@ -310,6 +312,7 @@ input[placeholder="Your email"] {
         --fs-md: 18px;
         --fs-sm: 16px;
         --fs-xs: 15px;
+        --fs-xxs: 14px;
         --fs-extraSmall: 13px;
     }
 }
