@@ -176,19 +176,14 @@
 
 .card_1:hover .updown {
     transform: translateY(-15px);
-
 }
 
 .border_card {
     border: 1px solid var(--danger-color);
 }
-
-.border_bottom {
-    outline-offset: 1px solid var(--danger-color);
+.border_bottom{
     border-bottom: 2px solid var(--secondary-color);
-
 }
-
 .border_card:hover .card-slider-btn {
     right: 0;
 }
